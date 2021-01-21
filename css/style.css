@@ -793,6 +793,14 @@
 				font-weight: bold;
 			}
 
+			table thead th.date {
+				width: 10%;
+			}
+
+			table thead th.presenter {
+				width: 20%;
+			}
+
 		table tfoot {
 			border-top: solid 2px #e5e5e5;
 		}
@@ -1230,9 +1238,10 @@
 		background-image: url("images/overlay.png"), url("../images/BJTU_sy.jpg");
 		background-position: top left,						top;
 		background-repeat: repeat,							no-repeat;
-		background-size: auto,							auto 830px;
+		/* background-size: auto,							cover; */
+		background-size: auto,							auto 650px;
 		color: #fff;
-		padding: 12em 0 20em 0;
+		padding: 9em 0 12em 0;
 		text-align: center;
 	}
 
@@ -1314,7 +1323,7 @@
 			}
 
 	body.landing #main {
-		margin-top: -14em;
+		margin-top: -4em;
 	}
 
 /* Footer */
