@@ -1237,9 +1237,9 @@
 		background-color: #666;
 		background-image: url("images/overlay.png"), url("../images/BJTU_sy.jpg");
 		background-position: top left,						top;
-		background-repeat: repeat,							no-repeat;
+		background-repeat: repeat;
 		/* background-size: auto,							cover; */
-		background-size: auto,							auto 650px;
+		background-size: 200px 100px;
 		color: #fff;
 		padding: 9em 0 12em 0;
 		text-align: center;
