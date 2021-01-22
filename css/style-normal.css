@@ -19,8 +19,8 @@
 /* Banner */
 
 	#banner {
-		background-attachment: scroll;
-		background-size: auto 515px;
+		background-size: cover;
+		height: 431px;
 	}
 
 		#banner h2 {

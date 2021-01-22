@@ -191,20 +191,24 @@
 
 	header.major {
 		padding: 1em 0;
-		text-align: center;
 	}
-
+	
 		header.major h2 {
 			margin: 0;
+			text-align: center;
 		}
 
 		header.major p {
+			font-family: 'Times New Roman', Times, serif;
+			letter-spacing: 1px;
+    		word-spacing: 5px;
+			text-align: justify;
 			display: inline-block;
 			border-top: solid 2px #e5e5e5;
 			color: #777;
 			margin: 1.5em 0 0 0;
 			padding: 1.5em 0 0 0;
-			font-style: normal;
+			font-style: italic;
 		}
 
 /* Form */
@@ -801,6 +805,10 @@
 				width: 20%;
 			}
 
+			table thead th.affiliation {
+				width: 10%;
+			}
+			
 		table tfoot {
 			border-top: solid 2px #e5e5e5;
 		}
@@ -1233,15 +1241,25 @@
 /* Banner */
 
 	#banner {
-		background-attachment: scroll,							fixed;
+		/* background-attachment: fixed; */
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../images/BJTU_sy.jpg");
-		background-position: top left,						top;
-		background-repeat: repeat,							no-repeat;
+		background-image: url("../images/BJTU_sy.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
 		/* background-size: auto,							cover; */
-		background-size: auto,							auto 650px;
+		/* background-size: auto 650px; */
+		background-size: cover;
 		color: #fff;
-		padding: 9em 0 12em 0;
+		/* padding: 9em 0 12em 0; */
+		height: 650px;
+		text-align: center;
+		position: relative;
+	}
+
+	#banner>div {
+		width: 100%;
+		top: 25%;
+		position: absolute;
 		text-align: center;
 	}
 
@@ -1258,6 +1276,11 @@
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
+		}
+
+		#banner h3 {
+			font-weight: 400;
+			letter-spacing: 1.5px;
 		}
 
 		#banner p {

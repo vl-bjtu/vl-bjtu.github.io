@@ -81,8 +81,10 @@
 /* Banner */
 
 	#banner {
-		padding: 4em 0;
-		background-size: auto 190px;
+		/* padding: 4em 0;
+		background-size: auto 190px; */
+		background-size: cover;
+		height: 248px;
 	}
 
 		#banner h2 {

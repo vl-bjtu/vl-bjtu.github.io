@@ -9,3 +9,7 @@
 	body, input, select, textarea {
 		font-size: 11pt;
 	}
+	#banner {
+		background-size: cover;
+		height: 330px;
+	}

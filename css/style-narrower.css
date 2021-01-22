@@ -60,7 +60,10 @@
 	}
 
 /* Banner */
-
+	#banner {
+		background-size: cover;
+		height: 283px;
+	}
 /* Layers */
 
 	#navButton .toggle {

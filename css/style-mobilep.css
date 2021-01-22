@@ -91,7 +91,9 @@
 /* Banner */
 
 	#banner {
-		padding: 5em 1em 4em 1em;
+		/* padding: 5em 1em 4em 1em; */
+		/* background-size: cover; */
+		height: 162px;
 	}
 
 /* Main */
