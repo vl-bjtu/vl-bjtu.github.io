@@ -158,6 +158,10 @@
 
 /* Section/Article */
 
+	section.schedule {
+		font-size : 14pt;
+	}
+
 	section.special, article.special {
 		text-align: center;
 	}
