@@ -1,0 +1,4 @@
+# VL-BJTU
+The Vision and Learning Seminar Series was started in 2020. It covers topics of the cutting-edge research on applying machine learning (or deep learning) techniques for visual recognition tasks, including image classification, object detection, visual segmentation, video understanding, vision-language techniques, etc. The talks will cover well-known or recent works accepted by prestigious conferences/journals such as CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, IJCV, PAMI. Beyond the speakers (Professors, Postdocs, Ph.D./Master students) from BJTU, we will occasionally invite worldwide researchers to share their latest progress. We welcome all researchers or students from BJTU to physically or virtually attend our seminar series and hope it is helpful to their future research.
+
+Please send an email to [knavit36@gmail.com]() if you are interested in our seminar series.
